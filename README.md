@@ -1,4 +1,3 @@
-1
 product-page-case
 
 Overview
