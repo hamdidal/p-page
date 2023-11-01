@@ -1,47 +1,93 @@
-# Getting Started with Create React App
+1
+product-page-case
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+This project is a product page case study built with React, MUI Joy, and TypeScript. It uses the Fuse.js library for search functionality and Zustand for state management.
 
-In the project directory, you can run:
+Features
 
-### `yarn start`
+Product search
+Product filtering
+Product details page
+Add to cart functionality
+Responsive design
+Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To install the project, clone the repository and run the following command:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+yarn install
 
-### `yarn test`
+Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To start the development server, run the following command:
 
-### `yarn build`
+yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To build the project for production, run the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+yarn build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Testing
 
-### `yarn eject`
+To run the tests, run the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+yarn test
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The project can be deployed to any static hosting provider, such as Netlify or Vercel.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributing
 
-## Learn More
+If you would like to contribute to the project, please fork the repository and submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# p-page
+This project is licensed under the MIT License.
+
+Dependencies
+
+The project depends on the following libraries:
+
+@emotion/react
+@emotion/styled
+@fontsource/roboto
+@mui/icons-material
+@mui/joy
+@mui/material
+@testing-library/jest-dom
+@testing-library/react
+@testing-library/user-event
+@types/jest
+@types/lodash
+@types/node
+@types/react
+@types/react-dom
+fuse.js
+react
+react-dom
+react-router-dom
+react-scripts
+typescript
+web-vitals
+zustand
+Browser Support
+
+The project supports the following browsers:
+
+Chrome >= 99
+Firefox >= 99
+Safari >= 16
+Changes
+
+Replaced "npm install" with "yarn install" in the installation instructions.
+Notes
+
+To use Yarn, you will need to install it first. You can do this by running the following command:
+
+npm install -g yarn
+
+Once you have installed Yarn, you can use it to install the project by running the following command:
+
+yarn install
